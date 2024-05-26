@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.sheetjs.com/xlsx-0.17.1/package/dist/xlsx.full.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T20 World Cup Predictions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.sheetjs.com/xlsx-0.17.1/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>T20 World Cup Predictions</h1>
+        <p>Welcome to our T20 World Cup prediction page! Upload your prediction sheet below:</p>
+        
+        <input type="file" id="file-upload" />
+        
+        <form id="prediction-form" style="display: none;">
+            <div id="questions-container"></div>
+            <button type="submit">Submit Predictions</button>
+        </form>
+        
+        <div id="results">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
